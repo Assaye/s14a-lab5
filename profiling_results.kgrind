@@ -1,0 +1,43 @@
+event: ns : Nanoseconds
+events: ns
+summary: 8101000
+fl=<string>
+fn=<module>
+1 165000
+cfl=C:\Users\Bulti\AppData\Local\Programs\Python\Python38\lib\xml\etree\ElementTree.py
+cfn=XML
+calls=1 1307
+1 7899900
+
+fl=C:\Users\Bulti\AppData\Local\Programs\Python\Python38\lib\xml\etree\ElementTree.py
+fn=XML
+1307 7238700
+cfl=~
+cfn=<method 'close' of 'xml.etree.ElementTree.XMLParser' objects>
+calls=1 0
+1307 400
+cfl=~
+cfn=<method 'feed' of 'xml.etree.ElementTree.XMLParser' objects>
+calls=1 0
+1307 660800
+
+fl=~
+fn=<built-in method builtins.exec>
+0 36100
+cfl=<string>
+cfn=<module>
+calls=1 1
+0 8064900
+
+fl=~
+fn=<method 'close' of 'xml.etree.ElementTree.XMLParser' objects>
+0 400
+
+fl=~
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 400
+
+fl=~
+fn=<method 'feed' of 'xml.etree.ElementTree.XMLParser' objects>
+0 660800
+

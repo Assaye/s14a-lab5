@@ -19,7 +19,7 @@ Db.init_app(app)
 @app.route('/index')
 def index():
     # Control by login status
-    print(session)
+    # print(session)
     if 'username' in session:
         session_user = User.query.filter_by(username=session['username']).first()
         posts = Post.query.filter_by(author=session_user.uid).all()
